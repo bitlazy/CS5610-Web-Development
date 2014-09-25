@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>OneHealth - Simplifying Life</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="CSS/responsive-carousel.css" media="screen">
+    <link rel="stylesheet" href="CSS/responsive-carousel.fade.css" media="screen">
+
+    <!--js files for carousal-->
+    <script src="js/responsive-carousel.js"></script>
+    <script src="js/responsive-carousel.autoplay.js"></script>
+    <script src="js/responsive-carousel.autoinit.js"></script>
+
+    <!--js file for parental tips-->
+    <script src="js/text4tots.js"></script>
+
+    <!--js file for bmi calculator-->
+    <script src="js/bmi_calculator.js"></script>
+</head>
+<body>
+
+    <div class="pad">
+
+        <!-- LOGO START-->
+        <div class="header">
+
+            <div id="logo">
+                <img id="logo_img" src="images/logo1.png" />
+            </div>
+
+            <div id="social_icons">
+
+                <div id="gplus">
+                <a href="http://plus.google.com/" target="_blank"><img class="grayscale" src="images/google-plus-icon.png" /></a>
+                </div>
+
+                <div id="twitter">
+                  <a href="http://www.twitter.com/" target="_blank"><img class="grayscale" src="images/twitter-icon.png" /></a>
+                </div>
+
+                <div id="fbook">
+                  <a href="http://www.facebook.com" target="_blank"><img class="grayscale" src="images/facebook-icon.png" /></a>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- LOGO END -->
+
+
+        <!-- MENU START -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="findPills.aspx">Pill Identifier</a></li>
+                <li><a href="findPhysician.aspx">Find Physician</a></li>
+                <li><a href="findHospital.aspx">Find Hospital</a></li>
+                <li><a href="findPlan.aspx">Find A Health Plan</a></li>
+                <li><a href="http://net4.ccs.neu.edu/home/sand89/story/index.htm?../project/documentation/">Documentation</a></li>
+            </ul>
+        </nav>
+
+        <!-- MENU END -->
+        <!-- CONTENT START -->
+        <div class="content">
+
+            <!-- CAROUSAL START  -->
+            <div class="carousel" data-transition="fade" data-autoplay>
+                <div>
+                    <img src="images/scroll_insurance.jpg" />
+                </div>
+                <div>
+                    <img src="images/scroll_pills.jpg">
+                </div>
+                <div>
+                    <img src="images/scroll_hospital.jpg" />
+                </div>
+                <div>
+                    <img src="images/scroll_physician.jpg" />
+                </div>
+
+            </div>
+            <!-- CAROUSAL END -->
+
+
+            <div class="mid-content">
+                <h3>Featured Tools</h3>
+                
+                <a href="findPills.aspx">
+                <div id="img_container1" class="hover">
+                    <div id="flipper1" class="shadow">
+                        <div class="front face1">
+                            <img id="flip_img1" src="images/pills5.png" />
+                        </div>
+                        <div class="back face1 center">
+                            <p><b>CONFUSED ABOUT YOUR PILLS?</b></p>
+                            <p>Use the Pill Identifier to know the details of your pill</p>
+                            <p id="pills_link_text">Search Pills Now!</p>
+
+                        </div>
+                    </div>
+                </div>
+                    </a>
+
+
+                <a href="findPhysician.aspx">
+                <div id="img_container2" class="hover">
+                    <div id="flipper2" class="shadow">
+                        <div class="front face2">
+                            <img id="flip_img2" src="images/doctor.png" />
+                        </div>
+                        <div class="back face2 center">
+                            <p><b>NEED A DOCTOR?</b></p>
+                            <p>Search any physician within the United States and get all their details in a click!</p>
+                            <p id="phy_link_text">Search Physician Now!</p>
+
+                        </div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="findHospital.aspx">
+                <div id="img_container3" class="hover">
+                    <div id="flipper3" class="shadow">
+                        <div class="front face3">
+                            <img id="flip_img3" src="images/hospital.png" />
+                        </div>
+                        <div class="back face3 center">
+                            <p><b>LOOKING FOR THE RIGHT HOSPITAL?</b></p>
+                            <p>We help you to search any hospital in United States</p>
+                            <p id="hosp_link_text">Search Hospital Now!</p>
+
+                        </div>
+                    </div>
+                </div>
+                </a>
+
+                <a href="findPlan.aspx">
+                <div id="img_container4" class="hover">
+                    <div id="flipper4" class="shadow">
+                        <div class="front face4">
+                            <img id="flip_img4" src="images/insurance-edited.png" />
+                        </div>
+                        <div class="back face4 center">
+                            <p><b>AFRAID OF YOUR HEALTH BILLS?</b></p>
+                            <p>We help you find the right plan for you & your family!</p>
+                            <p id="plan_link_text">Search Plan Now!</p>
+                        </div>
+                    </div>
+                </div>
+                    </a>
+
+            </div>
+
+
+            <div class="pos1">
+                <h3>Know Your Kid!</h3>
+                
+                    <p><i>"If you raise your children to feel that they can accomplish any goal or task they decide upon, you will have succeeded as a parent and you will have given your children the greatest of all blessings."</i> - Brian Tracy</p>
+
+                   <br /> <br /> <p>If your child is of age between 1 - 5 years, enter your child's birthday to get a very essential tips on parenting your child this week.</p><br />
+                    <p>Enter the Birthday:</p>
+                        <p><input type="date" name="bday" id="bday" required="required" /></p>
+                       <p><input id="btn1" type="button" value="Get My Tip" onclick="gettips()" /></p>
+                
+                <p id="txt4tots_result_lbl" style="display: none; text-align: center; background-color: skyblue; border: 1px dotted gray"></p>
+            </div>
+
+
+            <div class="pos2">
+                <h3>Are You Really Fit? - Know Your BMI</h3>
+                <p>
+                    Body Mass Index (BMI) is a number calculated from a person's weight and height. BMI provides a reliable indicator of body fatness for most people and is used to screen for weight categories that may lead to health problems.
+                </p>
+               <br /> <br /> 
+                    <table class="index_table">
+                        <tbody>
+                            <tr>
+                                <td>Enter your height </td>
+                                <td>
+                                    <input type="number" id="height_ft_txt" min="1" max="9" />
+                                    ft. 
+                        <input type="number" id="height_in_txt" min="1" max="11" />
+                                    inches</td>
+                            </tr>
+                            <tr>
+                                <td>Enter your weight </td>
+                                <td>
+                                    <input type="number" id="weight_txt" min="10" max="300" style="width:140px" />
+                                    pounds</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align: center">
+                                    <input type="button" id="calc_bmi_btn" value="Calculate BMI" onclick="calculateBMI()" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+               
+
+
+                <p id="bmi_result_lbl" style="display: none; text-align: center; background-color: skyblue; border: 1px dotted gray"></p>
+
+            </div>
+
+
+        </div>
+        <!-- CONTENT END -->
+
+        <div class="footer">
+            <div id="footer_left">
+                 &copy; Sandeep Ramamoorthy<br />
+                College of Computer and Information Science
+            </div>
+
+            <div id="footer_middle">
+                 Northeastern University,<br />
+                Boston, MA
+            </div>
+            
+            <div id="footer_right">
+                Site is best viewed in <br /><img src="images/chrome.png" style="width:24px" />
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

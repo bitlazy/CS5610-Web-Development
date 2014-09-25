@@ -1,0 +1,13 @@
+../../story/whatisnext.htm?../project/documentation/							What is Next?
+overview.aspx												Project Overview
+acknowledgement.aspx											Acknowledgements
+home-page.aspx												Project Home Page
+pillIdentifier-page.aspx										Pill Search
+findPhysician-page.aspx											Physician Search
+findHospital-page.aspx											Hospital Search
+findPlan-page.aspx											Health Plan Search
+tech-browsers.aspx											Technologies/Browsers
+future-scope.aspx											Future Scope
+references.aspx												References and Images
+sample-data.aspx											Sample Test Data
+story.txt												Story File
